@@ -1,0 +1,2 @@
+<input bindinput='bindKeyinpiut' type='number' placeholder='请输入电话号码'></input>
+<button bindtap="onclick">我是页面two</button>

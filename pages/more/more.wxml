@@ -1,0 +1,7 @@
+<button bindtouchstart="touchstart">点击按钮</button>
+<view>{{name}}</view>
+<view class='content'>
+  <view class='content_item' style='background: skyblue'>1</view>
+  <view class='content_item' style='background: #ff0000'>2</view>
+  <view class='content_item' style='background:#000; color:#fff'>3</view>
+</view>

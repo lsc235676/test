@@ -1,0 +1,3 @@
+<view>姓名：{{name}}</view>
+<view>电话号码：{{phone}}</view>
+<button bindtap='onclick'>我是页面three</button>

@@ -1,0 +1,19 @@
+<import src="../myaccount/myaccount.wxml"/>
+<include src="../myaccount/myaccount.wxml"/>
+<template name="root">
+ <view>
+  {{item.username}}----{{item.sex}}---{{item.age}}
+ </view>
+</template>
+<template name="foot">
+ <view>
+  hhhh
+ </view>
+</template>
+<view wx:for="{{testdata}}"> 
+ <template is="root" data="{{item}}"></template>
+</view>
+<view>
+ <template is="foot"></template>
+</view>
+<template is="orther"/>

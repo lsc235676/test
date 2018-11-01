@@ -1,0 +1,12 @@
+.content{
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+}
+.content_item{
+  width: 230rpx;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}

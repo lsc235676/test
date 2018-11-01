@@ -1,0 +1,3 @@
+<!--pages/one/one.wxml-->
+<input bindinput='bindKeyinpiut' type='text' placeholder='请输入姓名'></input>
+<button bindtap='onclick'>我是页面one</button>

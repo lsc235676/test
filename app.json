@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/one/one",
+    "pages/two/two",
+    "pages/three/three",
+    "pages/es6/es6",
+    "pages/cal/cal",
+    "pages/test2/test2",
+    "pages/test1/test1",
+    "pages/index/index",
+    "pages/buy/buy",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/invest/invest",
+    "pages/myaccount/myaccount",
+    "pages/seting/seting",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true 
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/tab_home_0.png",
+      "selectedIconPath": "image/tab_home_1.png"
+    },
+    {
+      "pagePath": "pages/invest/invest",
+      "text": "主页",
+      "iconPath": "image/tab_invest_0.png",
+      "selectedIconPath": "image/tab_invest_1.png"
+    },
+    {
+      "pagePath": "pages/myaccount/myaccount",
+      "text": "我的",
+      "iconPath": "image/tab_myaccount_0.png",
+      "selectedIconPath": "image/tab_myaccount_1.png"
+    },
+    {
+      "pagePath": "pages/more/more",
+      "text": "更多",
+      "iconPath": "image/tab_more_0.png",
+      "selectedIconPath": "image/tab_more_1.png"
+    }
+    ]
+  },
+  "debug":false
+}

@@ -1,0 +1,6 @@
+<template name="orther">
+  <view>我是其它页面的引用,引用模板内的代码用import</view>
+</template>
+<view>1.我是其它页面的引用,引用模板外的代码用include</view>
+<view>2.我是其它页面的引用,引用模板外的代码用include</view>
+<view>3.我是其它页面的引用,引用模板外的代码用include</view>
